@@ -11,8 +11,12 @@
 ## 使用
 * 下载仓库源码  
 * 安装python环境  
+* 以管理员模式打开CMD  
 * 下载依赖  
 ```pip install requirements.txt```
 * 运行[`/wechat_auto.py`](./wechat_auto.py)  
 ```python wechat_auto.py```
 * 输入需要点赞的次数和浏览购物车的次数并确认
+
+## 说明
+非管理员模式打开CMD后，即使运行了[`/runAsAdmin`](./runAsAdmin.py)了也不能权限升级，所以单独运行时，还是需要使用管理员权限打开CMD。
